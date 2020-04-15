@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
-id: "http://stsci.edu/schemas/asdf/transform/logparabola1d-1.0.0"
-tag: "tag:stsci.edu:asdf/transform/logparabola1d-1.0.0"
+id: "http://stsci.edu/schemas/asdf/transform/log_parabola1d-1.0.0"
+tag: "tag:stsci.edu:asdf/transform/log_parabola1d-1.0.0"
 title: >
   One dimensional log parabola model (sometimes called curved power law).
 
@@ -13,7 +13,7 @@ examples:
   -
     - $$f(x) = 10*(\frac{x}{0.5})^{-2.0-3.2\log{(\frac{x}{0.5})}}$$
     - |
-      !transform/logparabola1d-1.0.0 {alpha: 2.0, amplitude: 10.0, beta: 3.2, x_0: 0.5}
+      !transform/logp_arabola1d-1.0.0 {alpha: 2.0, amplitude: 10.0, beta: 3.2, x_0: 0.5}
 
 allOf:
   - $ref: "transform-1.2.0"

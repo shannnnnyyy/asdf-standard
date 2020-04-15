@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
-id: "http://stsci.edu/schemas/asdf/transform/powerlaw1d-1.0.0"
-tag: "tag:stsci.edu:asdf/transform/powerlaw1d-1.0.0"
+id: "http://stsci.edu/schemas/asdf/transform/power_law1d-1.0.0"
+tag: "tag:stsci.edu:asdf/transform/power_law1d-1.0.0"
 title: >
   One dimensional power law model.
 
@@ -13,7 +13,7 @@ examples:
   -
     - $$f(x) = 10*(x/0.5)^{-2}$$
     - |
-      !transform/powerlaw1d-1.0.0 {alpha: 2.0, amplitude: 10.0, x_0: 0.5}
+      !transform/power_law1d-1.0.0 {alpha: 2.0, amplitude: 10.0, x_0: 0.5}
 
 allOf:
   - $ref: "transform-1.2.0"
