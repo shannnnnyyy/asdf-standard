@@ -55,8 +55,8 @@ tags:
   tag:stsci.edu:asdf/transform/king_projected_analytic1d: 1.0.0
   tag:stsci.edu:asdf/transform/label_mapper: 1.2.0
   tag:stsci.edu:asdf/transform/linear1d: 1.0.0
-  tag:stsci.edu:asdf/transform/logarithmic1d: 1.0.0
   tag:stsci.edu:asdf/transform/log_parabola1d: 1.0.0
+  tag:stsci.edu:asdf/transform/logarithmic1d: 1.0.0
   tag:stsci.edu:asdf/transform/lorentz1d: 1.0.0
   tag:stsci.edu:asdf/transform/math_functions: 1.0.0
   tag:stsci.edu:asdf/transform/mercator: 1.2.0
