@@ -8,7 +8,7 @@ title: >
   value.
 description: |
   Invertibility: All ASDF tools are required to be able to compute the
-  analytic inverse of this transform, which always outputs zero values.
+  analytic inverse of this transform, which always outputs constant values.
 allOf:
   - $ref: "transform-1.2.0"
   - type: object
