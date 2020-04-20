@@ -7,8 +7,8 @@ title: >
   A transform that takes no inputs and always outputs a constant
   value.
 description: |
-  Invertibility: All ASDF tools are required to be able to compute the
-  analytic inverse of this transform, which always outputs zero values.
+  Invertibility: A transform which takes one or two inputs based on
+  dimensionality and returns a constant value. It has no analytical inverse.
 allOf:
   - $ref: "transform-1.2.0"
   - type: object
@@ -18,6 +18,6 @@ allOf:
           - $ref: "../unit/quantity-1.1.0"
           - type: number
       dimensions:
-        type: number
+        type: integer
     required: [value, dimensions]
 ...
