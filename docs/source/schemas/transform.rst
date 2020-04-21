@@ -44,6 +44,51 @@ Simple Transforms
    transform/shift-1.2.0
    transform/scale-1.2.0
 
+Power Laws
+----------
+
+.. asdf-autoschemas::
+
+   transform/broken_power_law1d-1.0.0.yaml
+   transform/exponential_cutoff_power_law1d-1.0.0.yaml
+   transform/power_law1d-1.0.0.yaml
+   transform/smoothly_broken_power_law1d-1.0.0.yaml
+
+Misc 
+----
+
+.. asdf-autoschemas::
+
+   transform/airy_disk2d-1.0.0
+   transform/blackbody-1.0.0
+   transform/box1d-1.0.0
+   transform/box2d-1.0.0
+   transform/disk2d-1.0.0
+   transform/drude1d-1.0.0
+   transform/ellipse2d-1.0.0
+   transform/exponential1d-1.0.0
+   transform/gaussian1d-1.0.0
+   transform/gaussian2d-1.0.0
+   transform/king_projected_analytic1d-1.0.0
+   transform/linear1d-1.0.0
+   transform/logarithmic1d-1.0.0
+   transform/lorentz1d-1.0.0
+   transform/moffat1d-1.0.0
+   transform/moffat2d-1.0.0
+   transform/planar2d-1.0.0
+   transform/plummer1d-1.0.0
+   transform/red_shift_scale_factor-1.0.0
+   transform/ricker_wavelet1d-1.0.0
+   transform/ricker_wavelet2d-1.0.0
+   transform/ring2d-1.0.0
+   transform/sersic1d-1.0.0
+   transform/sersic2d-1.0.0
+   transform/sine1d-1.0.0
+   transform/trapezoid1d-1.0.0
+   transform/trapezoid_disk2d-1.0.0
+   transform/voigt1d-1.0.0   
+
+
 Projections
 -----------
 
